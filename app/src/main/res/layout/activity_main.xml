@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,8 +8,13 @@
     tools:context="com.demo.waveuidemo.MainActivity">
 
     <com.demo.waveuidemo.WaveView
-        android:layout_marginTop="60dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"/>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/go_to_main2_bt"
+        android:text="显示贝塞尔曲线实现的波浪"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
